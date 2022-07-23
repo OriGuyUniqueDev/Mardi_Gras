@@ -14,14 +14,14 @@ function validationInputs() {
 	let fnameStr = fname.value;
 	let lnameStr = lname.value;
 	let emailStr = email.value;
-	if (!regex.test(fnameStr)) {
+	if (!regex.test(fnameStr) && fnameStr.length >= 2) {
 		fname.style.border = "5px solid green";
 	} else {
 		alert("❌ First Name should contain only letters and should be at least 2 characters ❌");
 		fname.style.border = "5px solid red";
 	}
 
-	if (!regex.test(lnameStr)) {
+	if (!regex.test(lnameStr) && lnameStr.length >= 2) {
 		lname.style.border = "5px solid green";
 	} else {
         alert("❌ Last Name should contain only letters and should be at least 2 characters ❌");
