@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:wght@400;700;900&display=swap");
+$purple: #9453a6;
+$yellow: #f2cc0f;
+$green: #8cbf3f;
+$cosBlack: #0d0d0d;
+$cosGrey: #f2f2f2;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+body{
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    margin-inline: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    
+}
+
+@media (max-width: 991.98px) {
+    body{
+        height: 100vh;
+        background-size: cover;
+        position: relative;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        margin-inline: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        
+    }
+
+}
+@media (max-width: 575.98px) {
+    .mayor{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+	footer {
+		display: flex;
+		height: 10rem;
+		font-size: 0.9rem;
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
+		.author {
+			justify-self: center;
+			align-self: center;
+			margin-block: 1rem;
+		}
+	}
+}
+@media (min-width: 1200px) {
+    body{
+        height: 100vh;
+        background-size: cover;
+        position: relative;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        margin-inline: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        
+    }
+}
+
+@media (min-width: 1400px) {
+	
+}

@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:wght@400;700;900&display=swap");
+$purple: #9453a6;
+$yellow: #f2cc0f;
+$green: #8cbf3f;
+$cosBlack: #0d0d0d;
+$cosGrey: #f2f2f2;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+footer {
+	display: flex;
+	height: 10rem;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	.author {
+		justify-self: center;
+		align-self: center;
+		margin-block: 1rem;
+	}
+}
+.carousel {
+	margin-left: 0;
+	margin-bottom: 10rem;
+}
+.carousel-item {
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+	img {
+		width: 500px;
+		height: 400px;
+		object-fit: fill;
+	}
+}
+a {
+	text-decoration: underline;
+	color: $cosBlack;
+	font-weight: 700;
+}
+a:hover {
+	color: $purple;
+}
+body {
+	background-color: #d9afd9;
+	background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	font-family: "Roboto", sans-serif;
+}
+.main-container {
+	.top-text {
+		font-family: "Pattaya", sans-serif;
+	}
+	.bottom-text {
+		font-size: 3rem;
+	}
+}
+.card-btn {
+	color: white;
+	background-color: $purple;
+	border: none;
+}
+.card-btn:hover {
+	color: white;
+	background-color: hsl(287, 33%, 30%);
+	border: none;
+}
+.card-header {
+	background-color: $purple;
+	color: white;
+	font-weight: 700;
+}
+
+.world {
+	color: $purple;
+	font-weight: 700;
+}
+.card {
+	text-align: center;
+	margin: 0 auto;
+	width: 17rem;
+	margin-bottom: 5rem;
+	.sponserHeader {
+		font-size: 1.5rem;
+	}
+	.sponserUl {
+		font-size: 1.3rem;
+		a {
+			text-decoration: underline;
+			color: $cosBlack;
+		}
+	}
+}
+.card-text {
+	font-size: 0.9rem;
+}
+@media (max-width: 991.98px) {
+	.main-container {
+		.hero-text-warpper {
+			.top-text {
+				font-family: "Pattaya", sans-serif;
+				text-align: center;
+			}
+			.bottom-text {
+				font-size: 6rem;
+				text-align: center;
+			}
+		}
+	}
+	.card-container {
+		flex-flow: column nowrap;
+		gap: 1.5rem;
+		margin-bottom: 3rem;
+		.card {
+			text-align: center;
+			margin: 0 auto;
+			width: 27rem;
+			.sponserHeader {
+				font-size: 1.5rem;
+			}
+			.sponserUl {
+				font-size: 1.3rem;
+				a {
+					text-decoration: underline;
+					color: $cosBlack;
+				}
+			}
+		}
+	}
+	.carousel {
+		margin-bottom: 5rem;
+	}
+}
+@media (max-width: 575.98px) {
+	.main-container {
+		.hero-text-warpper {
+			.top-text {
+				font-family: "Pattaya", sans-serif;
+				text-align: center;
+			}
+			.bottom-text {
+				font-size: 3rem;
+				text-align: center;
+			}
+		}
+		.card-container {
+			.card {
+				width: 100%;
+			}
+		}
+	}
+
+	footer {
+		display: flex;
+		height: 10rem;
+		font-size: 0.9rem;
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
+		.author {
+			justify-self: center;
+			align-self: center;
+			margin-block: 1rem;
+		}
+	}
+}
+@media (min-width: 1200px) {
+	.main-container {
+		.hero-text-warpper {
+			.top-text {
+				font-family: "Pattaya", sans-serif;
+			}
+			.bottom-text {
+				font-size: 4.5rem;
+				width: 30rem;
+			}
+		}
+	}
+	.card-container{
+		.card{
+			width: 20rem;
+		}
+	}
+}
+
+@media (min-width: 1400px) {
+	.main-container {
+		.hero-text-warpper {
+			.top-text {
+				font-family: "Pattaya", sans-serif;
+				margin-bottom: -1rem;
+			}
+			.bottom-text {
+				font-size: 5.7rem;
+				width: 40rem;
+				line-height: 6.5rem;
+			}
+		}
+		.hero-container {
+			.animationPic {
+				width: 400px;
+				height: 400px;
+				margin-top: -5rem;
+				align-self: center;
+			}
+		}
+	}
+	.card {
+		margin-top: 2rem;
+		margin-left: 0;
+		width: 22rem;
+		height: fit-content;
+		.sponserHeader {
+			font-size: 1.3rem;
+			text-align: left;
+		}
+		.sponserUl {
+			font-size: 1rem;
+			text-align: left;
+			a:hover {
+				text-decoration: underline;
+				color: $purple;
+			}
+		}
+	}
+	.carousel-item {
+		width: 100%;
+		font-family: "Roboto", sans-serif;
+		img {
+			width: 500px;
+			height: 700px;
+			object-fit: fill;
+		}
+	}
+}

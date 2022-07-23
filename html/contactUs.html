@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mardi Gras - Contact Us</title>
+		<link rel="stylesheet" href="/style/main.css" />
+		<link rel="stylesheet" href="/style/contactus.css" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<script src="/javaScript/app.js" defer></script>
+	</head>
+	<body class="container-lg">
+		<header class="navBar-container mb-5">
+			<nav class="navbar navbar-expand-lg rounded-4">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">
+						<img
+							src="/images/logo.png"
+							alt=""
+							width="100"
+							height="100"
+							class="d-inline-block align-text-top"
+						/>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item fs-4">
+								<a class="nav-link" aria-current="page" href="/index.html"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item fs-4">
+								<a class="nav-link" href="/html/aboutUs.html">About Us</a>
+							</li>
+							<li class="nav-item fs-4">
+								<a class="nav-link" href="/html/gallery.html">Gallery</a>
+							</li>
+							<li class="nav-item fs-4">
+								<a class="nav-link" href="/html/faq.html">FAQ</a>
+							</li>
+							<li class="nav-item fs-4">
+								<a class="nav-link active" href="/html/contactUs.html"
+									>Contact Us</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<h1 class="mb-2 ">Contact Us - WE Want To Hear From You 🥳</h1>
+		<div class="main-container container-lg ">
+			<form action="">
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class=" d-none d-lg-block form-label"
+						>First Name</label
+					>
+					<input
+						type="text"
+						class="form-control fname"
+						id="exampleFormControlInput1"
+						placeholder="First Name"
+					/>
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label d-none d-lg-block"
+						>Last Name</label
+					>
+					<input
+						type="text"
+						class="form-control lname"
+						id="exampleFormControlInput1"
+						placeholder="Last Name"
+					/>
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label d-none d-lg-block"
+						>Email address</label
+					>
+					<input
+						type="email"
+						class="form-control email"
+						id="exampleFormControlInput1"
+						placeholder="Email address"
+					/>
+				</div>
+				<div class="mb-3 textarea">
+					<label for="exampleFormControlTextarea1" class="form-label d-none d-lg-block"
+						>We Are Listening...</label
+					>
+					<textarea
+						class="form-control"
+						id="exampleFormControlTextarea1"
+						rows="5"
+						placeholder="We Are Listening..."
+					></textarea>
+				</div>
+				<button class="sendBTN" type="button">Send</button>
+			</form>
+
+			<lottie-player
+				src="https://assets1.lottiefiles.com/packages/lf20_u25cckyh.json"
+				background="transparent"
+				speed="1"
+				loop
+				autoplay
+			></lottie-player>
+		</div>
+		
+		<footer class="fotter">
+			<p class="author text-center opacity-50">
+				Designed and Developed by Ori Guy &copy;
+				<span class="year">2022</span>
+			</p>
+			<a href="https://github.com/OriGuyUniqueDev?tab=repositories"
+				><img src="/images/github.png" alt="" class="github"
+			/></a>
+		</footer>
+	</body>
+</html>
