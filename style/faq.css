@@ -10915,11 +10915,10 @@ footer {
   }
 }
 @media (max-width: 575.98px) {
-  .mayor {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    gap: 1rem;
+  body {
+    height: 100%;
+    background-size: cover;
+    position: relative;
   }
   footer {
     display: flex;
@@ -10928,6 +10927,8 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    position: relative;
+    bottom: -2rem;
   }
   footer .author {
     justify-self: center;
