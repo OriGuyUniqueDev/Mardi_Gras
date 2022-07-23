@@ -10928,7 +10928,7 @@ footer {
     align-items: center;
     gap: 1rem;
     position: relative;
-    bottom: -2rem;
+    bottom: 0;
   }
   footer .author {
     justify-self: center;
