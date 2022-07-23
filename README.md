@@ -9,7 +9,7 @@ The project's goal is to redesign the site of the Mardi Gras Carnival official s
 
 ## Screenshot
 
-![App Screenshot](/images/mobile (2).png)
+![App Screenshot](https://github.com/OriGuyUniqueDev/Mardi_Gras/blob/main/images/mobile%20(2).png?raw=true)
 
 
 ## Deployment
