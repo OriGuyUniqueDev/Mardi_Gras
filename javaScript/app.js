@@ -6,7 +6,6 @@ let formInputs = [fname, lname, email];
 const regex = /\d/;
 
 btn.addEventListener("click", () => {
-	console.log("Click");
 	validationInputs();
 });
 
